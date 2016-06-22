@@ -13,6 +13,9 @@ width: 200px;
 height: 200px;
 background: lightblue;
 color: white;
+border-style: solid;
+border-color: red;
+border-width: 5px;
 }
 
 .userText{

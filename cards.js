@@ -26,7 +26,9 @@ var button = document.createElement("Button");
 var textForButton = document.createTextNode("Delete");
 button.appendChild(textForButton);
 button.addEventListener("click", function(){
-    alert("Hi!");
+    alert("Good-bye!");
+    // this is my test language to remove the div from the DOM
+    document.getElementById("divID").remove();
 });
 divElement.appendChild(button);
 
